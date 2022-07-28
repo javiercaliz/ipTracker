@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Tracking</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <h1 style="text-align: center;">Ip Tracker</h1>
+        <form id="form">
+            <label>
+                IP del Usuario
+                <input required type="text" name="ip" id="ip" placeholder="Introduce aquí la IP">
+            <small>Por ej. 54.86.124.204</small>
+            </label>
+            <button id="submit" type="submit">
+                Buscar información
+            </button>
+        </form>
+        <div>
+
+               <div class="grid" style="align-items: center; text-align: center;">
+                <div id="flag"></div>
+                <div id="connection"></div>
+                <div id="currency"></div>
+                <div id="vpn"></div>
+               </div>
+
+        </div>
+    </main>
+
+<footer class="footer" style="text-align: end; padding-right: 30px;">
+    Javier Caliz - 2022 - <a href="https://github.com/javiercaliz"><i class="fa fa-github fa-2x" aria-hidden="true"></i> GitHub</a>
+</footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
